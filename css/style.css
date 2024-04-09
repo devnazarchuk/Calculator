@@ -184,21 +184,24 @@ nav .fa {
 
 .course-main {
   margin-top: 40px;
-  display: flex;
-  flex-direction: row;
   column-gap: 45px;
   row-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .course-col {
-  background: #fdd0cd;
+  background: linear-gradient(90deg, rgba(5, 1, 91, 0.795) 0%, rgba(9, 9, 121, 0.8) 46%, rgba(0,212,255,1) 100%);
   border-radius: 10px;
   padding: 20px 12px;
   transition: 0.5s;
   text-align: center;
+  flex-basis: 30%;
+  flex-grow: 0.3;
 }
 .course-col:hover {
   transition: 0.5s;
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
 }
 
 .course-col h3 {
@@ -282,6 +285,7 @@ nav .fa {
   margin-bottom: 5px;
   position: relative;
   overflow: hidden;
+  flex-grow: 0.3;
 }
 .layer {
   background: transparent;
@@ -336,6 +340,7 @@ nav .fa {
   text-align: center;
   border-radius: 10px;
   margin-bottom: 5px;
+  flex-grow: 0.3;
 }
 .facility-col img:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
