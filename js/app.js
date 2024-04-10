@@ -12,15 +12,15 @@ function hideMenu() {
   faBars.style.display = "block";
 }
 /*--------------Me learn code--------------------*/
-let button_img = document.getElementById("button_img");
+let img_button = document.getElementById("img_button");
 
-button_img.onclick = function imageChange(){
-  let header_img = document.getElementById("header_img");
-  let mySrc = header_img.getAttribute("src");
-  if (mySrc === "/img/banner.png") {
-    header_img.setAttribute("src", "/img/banner2.png");
+img_button.onclick = function imageChange(){
+  let library = document.getElementById("library");
+  let mySrc = library.getAttribute("src");
+  if (mySrc === "/img/library.png") {
+    library.setAttribute("src", "/img/library2.png");
   } else {
-    header_img.setAttribute("src", "/img/banner.png");
+    library.setAttribute("src", "/img/library.png");
   }
 };
 // let userName = document.getElementById("userName");

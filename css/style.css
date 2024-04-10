@@ -191,7 +191,7 @@ nav .fa {
   justify-content: center;
 }
 .course-col {
-  background: linear-gradient(90deg, rgba(5, 1, 91, 0.795) 0%, rgba(9, 9, 121, 0.8) 46%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgba(69, 60, 240, 0.795) 0%, rgba(21, 21, 242, 0.8) 46%, rgba(0,212,255,1) 100%);
   border-radius: 10px;
   padding: 20px 12px;
   transition: 0.5s;
@@ -322,6 +322,9 @@ nav .fa {
 .facility-col h3 {
   font-size: 22px;
 }
+.facility-col img {
+  border-radius: 10px;
+}
 .facility-main p {
   font-size: 16px;
   color: gray;
@@ -360,6 +363,9 @@ nav .fa {
     text-align: center;
     margin: 0 15px;
     font-size: 16px;
+  }
+  .facility-col img {
+    border-radius: 0px;
   }
 }
 /* _____testmonial_____ */
