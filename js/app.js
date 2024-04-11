@@ -12,17 +12,7 @@ function hideMenu() {
   faBars.style.display = "block";
 }
 /*--------------Me learn code--------------------*/
-let img_button = document.getElementById("img_button");
 
-img_button.onclick = function imageChange(){
-  let library = document.getElementById("library");
-  let mySrc = library.getAttribute("src");
-  if (mySrc === "/img/library.png") {
-    library.setAttribute("src", "/img/library2.png");
-  } else {
-    library.setAttribute("src", "/img/library.png");
-  }
-};
 // let userName = document.getElementById("userName");
 // userName.onclick = function setUserName() {
 //   let myName = prompt("Please enter your name.");
