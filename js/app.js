@@ -12,6 +12,24 @@ function hideMenu() {
   faBars.style.display = "block";
 }
 /*--------------Me learn code--------------------*/
+/*calculator */
+alert("Welcome to the calculator");
+let firstNumber = prompt("Enter first number");
+let secondNumber = prompt("Enter second number");
+let operator = prompt("Enter operator");
+if (operator == "+"){
+  alert(`Result is ${Number(firstNumber)+Number(secondNumber)}`)
+}
+else if(operator =="-"){
+  alert(`Result is ${Number(firstNumber)-Number(secondNumber)}`)
+}
+else if(operator =="*"){
+  alert(`Result is ${Number(firstNumber)*Number(secondNumber)}`)
+}
+else(operator =="/"){
+  alert(`Result is ${Number(firstNumber)/Number(secondNumber)}`)
+};
+
 
 // let userName = document.getElementById("userName");
 // userName.onclick = function setUserName() {
