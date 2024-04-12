@@ -1,3 +1,4 @@
+"use strict";
 let navLinks = document.getElementById("navLinks");
 let faBars = document.getElementById("faBars");
 let faTimes = document.getElementById("faTimes");
@@ -13,22 +14,25 @@ function hideMenu() {
 }
 /*--------------Me learn code--------------------*/
 /*calculator */
-alert("Welcome to the calculator");
-let firstNumber = prompt("Enter first number");
-let secondNumber = prompt("Enter second number");
-let operator = prompt("Enter operator");
-if (operator == "+"){
-  alert(`Result is ${Number(firstNumber)+Number(secondNumber)}`)
-}
-else if(operator =="-"){
-  alert(`Result is ${Number(firstNumber)-Number(secondNumber)}`)
-}
-else if(operator =="*"){
-  alert(`Result is ${Number(firstNumber)*Number(secondNumber)}`)
-}
-else(operator =="/"){
-  alert(`Result is ${Number(firstNumber)/Number(secondNumber)}`)
-};
+// alert("Welcome to the calculator");
+// let firstNumber = prompt("Enter first number");
+// let secondNumber = prompt("Enter second number");
+// let operator = prompt("Enter operator");
+// if (operator == "+"){
+//   alert(`Result is ${Number(firstNumber)+Number(secondNumber)}`)
+// }
+// else if(operator =="-"){
+//   alert(`Result is ${Number(firstNumber)-Number(secondNumber)}`)
+// }
+// else if(operator =="*"){
+//   alert(`Result is ${Number(firstNumber)*Number(secondNumber)}`)
+// }
+// else if(operator =="/"){
+//   alert(`Result is ${Number(firstNumber)/Number(secondNumber)}`)
+// }
+// else{
+//   alert("Something wrong")
+// };
 
 
 // let userName = document.getElementById("userName");
