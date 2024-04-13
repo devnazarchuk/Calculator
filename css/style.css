@@ -62,6 +62,10 @@ nav li:hover::after {
 .text-box h1 {
   font-size: 55px;
 }
+.text-box p {
+  font-size:25px;
+}
+
 .hero-btn {
   max-width: max-content;
   margin: 20px auto;
@@ -71,7 +75,7 @@ nav li:hover::after {
   cursor: pointer;
 }
 .hero-btn:hover {
-  border: 2px solid  #f47921;
+  border: 2px solid  black;
   background: #f98b42;
   transition: 0.5s;
 }
@@ -122,11 +126,14 @@ nav .fa {
 }
 /* ------------------main----------------------- */
 .calculator_section{
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: #fff;
+  background-color: #bebebe;
+}
+.calculator_section h1{
+  display: flex;
+  justify-content: center
 }
 #calculator{
   background-color: hsl(0, 0%, 15%);
@@ -139,10 +146,11 @@ nav .fa {
   border: 2px solid black;
   align-items: center;
   width: 100%;
-  padding: 20px;
-  font-size: 5rem;
+  padding: 5px;
+  font-size: 4rem;
   text-align: center;
-  color:white;
+  background-color: #616161;
+  color: white;
 }
 #keys{
   display: grid;
