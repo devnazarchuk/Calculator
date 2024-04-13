@@ -34,23 +34,29 @@
       </div>
     </header>
     <main>
-      <section class="calculator">
-        <button class="calculator_1" id="calculator_1">1</button>
-        <button class="calculator_2" id="calculator_2">2</button>
-        <button class="calculator_3" id="calculator_3">3</button>
-        <button class="calculator_4" id="calculator_4">4</button>
-        <button class="calculator_5" id="calculator_5">5</button>
-        <button class="calculator_6" id="calculator_6">6</button>
-        <button class="calculator_7" id="calculator_7">7</button>
-        <button class="calculator_8" id="calculator_8">8</button>
-        <button class="calculator_9" id="calculator_9">9</button>
-        <button class="calculator_0" id="calculator_0">0</button>
-        <button class="calculator_plus" id="calculator_plus">+</button>
-        <button class="calculator_minus" id="calculator_minus">-</button>
-        <button class="calculator_multiply" id="calculator_multiply">*</button>
-        <button class="calculator_divide" id="calculator_divide">/</button>
-        <button class="calculator_submit" id="calculator_submit">Submit</button>
-        <div class="calculator_result" id="calculator_result">Result is</div>        
+      <section class="calculator_section">
+        <div id="calculator">
+          <input id="display" readonly>
+          <div id="keys">
+            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()" class="operator-btn">C</button>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
