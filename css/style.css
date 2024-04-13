@@ -1,15 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-}
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-}
+@import url(reset.css);
 header {
   min-height: 50vh;
   width: 100%;
@@ -126,19 +115,20 @@ nav .fa {
 }
 /* ------------------main----------------------- */
 .calculator_section{
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  max-height: 70%;
   background-color: #bebebe;
 }
 .calculator_section h1{
   display: flex;
-  justify-content: center
+  justify-content: center;
+  font-size: 2rem;
+  
 }
 #calculator{
   background-color: hsl(0, 0%, 15%);
   border-radius: 15px;
-  width: 50vw;
+  width: 60vw;
+  max-height: 70%;
   overflow: hidden;
   margin: auto;
 }
@@ -155,14 +145,14 @@ nav .fa {
 #keys{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  padding: 25px;
-  margin: auto;
+  padding: 15px;
+  justify-items: center;
 }
 button{
-  width: 10vw;
-  height: 10vw;
+  width: 8vw;
+  height: 8vw;
   border-radius:50%;
-  border:none;
+  border:2px solid black;
   background-color: #4d4d4d;
   color: white;
   font-size:2rem;
@@ -183,9 +173,53 @@ button:active{
 .operator-btn:active{
   background-color: hsl(39, 100%, 80%);
 }
+@media screen and (max-width: 700px) {
+  #calculator{
+    width: 100vw;
+    height: 60vh;
+  }
+  #display{
+    font-size: 3rem;
+  }
+  #keys{
+    padding: 25px;
+    gap:7px
+  }
+  button{
+    width: 17vw;
+    height: 17vw;
+    font-size:2.5rem;
+    font-weight: bold;
+  }
+}
+/* ---------------Next section--------------- */
+.some_section{
+  background-color: rgb(100, 98, 98);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center
+}
+#mySubmit{
+  width: 100px;
+  height: 30px;
+  border-radius:10px;
+  border:solid 1px black;
+  background-color: #4d4d4d;
+  color: white;
+  font-size:12px;
+  font-weight: normal;
+}
+#mySubmit:hover{
+  background-color: #696767;
+}
+#mySubmit:active{
+  background-color: #8a8a8a;
+}
+
 /* _________________footer____________________ */
 footer{
-  height: 50vh;
+  height: 30%;
   text-align: center;
   min-width:100vw;
   padding: 10px 0;

@@ -13,6 +13,7 @@ function hideMenu() {
   faBars.style.display = "block";
 }
 /*--------------Me learn code--------------------*/
+// -----------------calculator-----------------//
 const display = document.getElementById("display");
 
 function appendToDisplay(input){
@@ -28,4 +29,11 @@ function calculate(){
   catch(error){
     display.value="Error"
   }
+}
+//--------------------study---------------------------
+let username;
+document.getElementById("mySubmit").onclick = function(){
+  username=document.getElementById("myText").value;
+  document.getElementById("myH1").textContent=`Hello ${username}`;
+  document.getElementById("title").textContent=username+"'s site";
 }
