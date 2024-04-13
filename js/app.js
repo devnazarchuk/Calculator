@@ -13,6 +13,7 @@ function hideMenu() {
   faBars.style.display = "block";
 }
 /*--------------Me learn code--------------------*/
+
 // -----------------calculator-----------------//
 const display = document.getElementById("display");
 
