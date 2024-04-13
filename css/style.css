@@ -149,44 +149,51 @@ nav .fa {
   }
 }
 /* ------------------main----------------------- */
+
 .calculator{
   height: 70vh;
-  width: 50vw;
+  width: 60vw;
   margin: 40px auto;
-  background-color: grey;
-  /* display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(5,1fr); */
-}
+  background-color: rgb(169, 169, 169);
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  grid-template-areas: 
+  'one two three res res'
+  'four five six res res'
+  'seven eight nein res res'
+  'null plus minus res res'
+  'dev mul submit res res';
+};
 .calculator_1 {
-  grid-area: 1;
+  grid-area: one;
 }
 .calculator_2 {
-  grid-area: 2;
+  grid-area: two;
 }
 .calculator_3 {
-  grid-area: 3;
+  grid-area: three;
 }
 .calculator_4 {
-  grid-area: 4;
+  grid-area: four;
 }
 .calculator_5 {
-  grid-area: 5;
+  grid-area: five;
 }
 .calculator_6 {
-  grid-area: 6;
+  grid-area: six;
 }
 .calculator_7 {
-  grid-area: 7;
+  grid-area: seven;
 }
 .calculator_8 {
-  grid-area: 8;
+  grid-area: eight;
 }
 .calculator_9 {
-  grid-area: 9;
+  grid-area: nein;
 }
 .calculator_0 {
-  grid-area: 0;
+  grid-area: null;
 }
 .calculator_plus {
   grid-area: plus;
@@ -201,13 +208,16 @@ nav .fa {
   grid-area: dev;
 }
 .calculator_submit {
-  grid-area: sub;
+  grid-area: submit;
 }
 .calculator_result {
   grid-area: res;
 }
 
+[class*="calculator_"]{
 
+  
+};
 
 
 /* _________________footer____________________ */
