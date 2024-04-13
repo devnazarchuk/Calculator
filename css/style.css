@@ -9,7 +9,7 @@ nav {
   justify-content: space-between;
   padding: 1%;
 }
-.logo a::after{
+.logo a::after {
   content: "";
   width: 0%;
   height: 2px;
@@ -18,7 +18,7 @@ nav {
   margin: auto;
   transition: 0.5s;
 }
-.logo a:hover::after{  
+.logo a:hover::after {
   width: 100%;
 }
 nav ul {
@@ -52,7 +52,7 @@ nav li:hover::after {
   font-size: 55px;
 }
 .text-box p {
-  font-size:25px;
+  font-size: 25px;
 }
 
 .hero-btn {
@@ -64,7 +64,7 @@ nav li:hover::after {
   cursor: pointer;
 }
 .hero-btn:hover {
-  border: 2px solid  black;
+  border: 2px solid black;
   background: #f98b42;
   transition: 0.5s;
 }
@@ -114,17 +114,16 @@ nav .fa {
   }
 }
 /* ------------------main----------------------- */
-.calculator_section{
+.calculator_section {
   max-height: 70%;
   background-color: #bebebe;
 }
-.calculator_section h1{
+.calculator_section h1 {
   display: flex;
   justify-content: center;
   font-size: 2rem;
-  
 }
-#calculator{
+#calculator {
   background-color: hsl(0, 0%, 15%);
   border-radius: 15px;
   width: 60vw;
@@ -132,7 +131,7 @@ nav .fa {
   overflow: hidden;
   margin: auto;
 }
-#display{
+#display {
   border: 2px solid black;
   align-items: center;
   width: 100%;
@@ -142,86 +141,86 @@ nav .fa {
   background-color: #616161;
   color: white;
 }
-#keys{
+#keys {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   padding: 15px;
   justify-items: center;
 }
-button{
+button {
   width: 8vw;
   height: 8vw;
-  border-radius:50%;
-  border:2px solid black;
+  border-radius: 50%;
+  border: 2px solid black;
   background-color: #4d4d4d;
   color: white;
-  font-size:2rem;
+  font-size: 2rem;
   font-weight: bold;
 }
-button:hover{
+button:hover {
   background-color: #616161;
 }
-button:active{
+button:active {
   background-color: #818080;
 }
-.operator-btn{
+.operator-btn {
   background-color: hsl(39, 100%, 50%);
 }
-.operator-btn:hover{
+.operator-btn:hover {
   background-color: hsl(39, 100%, 60%);
 }
-.operator-btn:active{
+.operator-btn:active {
   background-color: hsl(39, 100%, 80%);
 }
 @media screen and (max-width: 700px) {
-  #calculator{
+  #calculator {
     width: 100vw;
     height: 60vh;
   }
-  #display{
+  #display {
     font-size: 3rem;
   }
-  #keys{
+  #keys {
     padding: 25px;
-    gap:7px
+    gap: 7px;
   }
-  button{
+  button {
     width: 17vw;
     height: 17vw;
-    font-size:2.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
   }
 }
 /* ---------------Next section--------------- */
-.some_section{
+.some_section {
   background-color: rgb(100, 98, 98);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: center
+  align-content: center;
 }
-#mySubmit{
+#mySubmit {
   width: 100px;
   height: 30px;
-  border-radius:10px;
-  border:solid 1px black;
+  border-radius: 10px;
+  border: solid 1px black;
   background-color: #4d4d4d;
   color: white;
-  font-size:12px;
+  font-size: 12px;
   font-weight: normal;
 }
-#mySubmit:hover{
+#mySubmit:hover {
   background-color: #696767;
 }
-#mySubmit:active{
+#mySubmit:active {
   background-color: #8a8a8a;
 }
 
 /* _________________footer____________________ */
-footer{
+footer {
   height: 30%;
   text-align: center;
-  min-width:100vw;
+  min-width: 100vw;
   padding: 10px 0;
   background-color: gainsboro;
 }
@@ -243,4 +242,3 @@ footer i {
     min-height: 25vh;
   }
 }
-

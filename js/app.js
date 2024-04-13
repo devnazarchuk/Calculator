@@ -16,24 +16,23 @@ function hideMenu() {
 // -----------------calculator-----------------//
 const display = document.getElementById("display");
 
-function appendToDisplay(input){
-  display.value +=input;
+function appendToDisplay(input) {
+  display.value += input;
 }
-function clearDisplay(){
-  display.value="";
+function clearDisplay() {
+  display.value = "";
 }
-function calculate(){
-  try{
-  display.value = eval(display.value);
-  }
-  catch(error){
-    display.value="Error"
+function calculate() {
+  try {
+    display.value = eval(display.value);
+  } catch (error) {
+    display.value = "Error";
   }
 }
 //--------------------study---------------------------
 let username;
-document.getElementById("mySubmit").onclick = function(){
-  username=document.getElementById("myText").value;
-  document.getElementById("myH1").textContent=`Hello ${username}`;
-  document.getElementById("title").textContent=username+"'s site";
-}
+document.getElementById("mySubmit").onclick = function () {
+  username = document.getElementById("myText").value;
+  document.getElementById("myH1").textContent = `Hello ${username}`;
+  document.getElementById("title").textContent = username + "'s site";
+};

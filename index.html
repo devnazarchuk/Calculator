@@ -3,34 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"/>  
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
     <title id="title">JS learn</title>
   </head>
   <body>
     <header>
-         <nav>
-            <div class="logo"><a href="www.github.com/ar4uk69">AR4UK69</a></div>
-            <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" id ="faTimes" onclick="hideMenu()"></i>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#calculator">Calculator</a></li>
-                <li><a href="#some_section">Form</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-            <i class="fa fa-bars" id ="faBars" onclick="showMenu()"></i>
-            </div>
-         </nav>
+      <nav>
+        <div class="logo"><a href="www.github.com/ar4uk69">AR4UK69</a></div>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" id="faTimes" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#calculator">Calculator</a></li>
+            <li><a href="#some_section">Form</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+          <i class="fa fa-bars" id="faBars" onclick="showMenu()"></i>
+        </div>
+      </nav>
       <div class="text-box">
         <h1>Time to learn</h1>
-        <p>
-          You will find JS code downner⮯
-        </p>
+        <p>You will find JS code downner⮯</p>
         <a href="https://www.github.com/ar4uk69" class="hero-btn">My Github</a>
       </div>
     </header>
@@ -38,21 +39,29 @@
       <section class="calculator_section">
         <h1>The best calculator</h1>
         <div id="calculator">
-          <input id="display" readonly>
+          <input id="display" readonly />
           <div id="keys">
-            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+            <button onclick="appendToDisplay('+')" class="operator-btn">
+              +
+            </button>
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>
             <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+            <button onclick="appendToDisplay('-')" class="operator-btn">
+              -
+            </button>
             <button onclick="appendToDisplay('4')">4</button>
             <button onclick="appendToDisplay('5')">5</button>
             <button onclick="appendToDisplay('6')">6</button>
-            <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+            <button onclick="appendToDisplay('*')" class="operator-btn">
+              *
+            </button>
             <button onclick="appendToDisplay('1')">1</button>
             <button onclick="appendToDisplay('2')">2</button>
             <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="appendToDisplay('/')" class="operator-btn">
+              /
+            </button>
             <button onclick="appendToDisplay('0')">0</button>
             <button onclick="appendToDisplay('.')">.</button>
             <button onclick="calculate()">=</button>
@@ -60,10 +69,10 @@
           </div>
         </div>
       </section>
-      <section id="some_section"class="some_section">
+      <section id="some_section" class="some_section">
         <h1 id="myH1">Welcome to the page</h1>
         <label id="username">Your username:</label>
-        <input id="myText"placeholder="Enter your username">
+        <input id="myText" placeholder="Enter your username" />
         <button id="mySubmit">Submit</button>
       </section>
     </main>
@@ -72,14 +81,27 @@
       <p>© Copyright 2024</p>
       <p>Developed by Ar4uk69</p>
       <div class="contactUS">
-        <a href="www.facebook.com/ar4uk69" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
-        <a href="www.twitter.com/ar4uk69" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
-        <a href="www.instagram.com/ar4uk69" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="www.linkedin.com/ar4uk69" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="www.github.com/ar4uk69"  title="Github"><i class="fa-brands fa-github"></i></a>
+        <a href="www.facebook.com/ar4uk69" title="Facebook"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="www.twitter.com/ar4uk69" title="Twitter"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="www.instagram.com/ar4uk69" title="Instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="www.linkedin.com/ar4uk69" title="Linkedin"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="www.github.com/ar4uk69" title="Github"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </div>
     </footer>
-    <script src="https://kit.fontawesome.com/f637c4f7db.js" crossorigin="anonymous"></script>  
+    <script
+      src="https://kit.fontawesome.com/f637c4f7db.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/app.js"></script>
   </body>
 </html>
