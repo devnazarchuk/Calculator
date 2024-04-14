@@ -215,6 +215,10 @@ button:active {
 #mySubmit:active {
   background-color: #8a8a8a;
 }
+#myText{
+  font-size: 20px;
+  height: 50px;
+}
 
 /* _________________footer____________________ */
 footer {
