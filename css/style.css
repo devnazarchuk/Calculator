@@ -1,117 +1,26 @@
 @import url(reset.css);
 header {
-  min-height: 50vh;
-  width: 100%;
   background-color: rgb(249, 172, 113);
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 1%;
-}
-.logo a::after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: black;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-.logo a:hover::after {
-  width: 100%;
-}
-nav ul {
-  display: flex;
-  gap: 40px;
-}
-nav li {
-  list-style: none;
-  font-size: 20px;
-  cursor: pointer;
-}
-nav li::after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #f44336;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-nav li:hover::after {
-  width: 100%;
 }
 .text-box {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 40px;
+  padding: 10px;
+  font-size: 20px;
 }
-.text-box h1 {
-  font-size: 55px;
-}
-.text-box p {
-  font-size: 25px;
-}
-
 .hero-btn {
   max-width: max-content;
-  margin: 20px auto;
+  margin: 10px auto;
   border: 2px solid white;
   border-radius: 10px;
-  padding: 15px 40px;
+  padding: 10px 30px;
   cursor: pointer;
 }
 .hero-btn:hover {
   border: 2px solid black;
   background: #f98b42;
   transition: 0.5s;
-}
-nav .fa {
-  display: none;
-}
-@media screen and (max-width: 700px) {
-  header {
-    min-height: 70vh;
-  }
-  nav li::after {
-    background: #fefefe;
-  }
-  nav ul {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .nav-links {
-    position: absolute;
-    background-color: #f98b42;
-    min-height: 70vh;
-    width: 40vw;
-    top: 0;
-    right: -40vw;
-    text-align: left;
-    z-index: 2;
-    transition: 1s;
-  }
-  nav .fa {
-    display: block;
-    color: white;
-    font-size: 22px;
-    cursor: pointer;
-    position: absolute;
-    cursor: pointer;
-    top: 1vw;
-    padding: 5px;
-  }
-  .fa-bars {
-    right: 41vw;
-  }
-  .fa-times {
-    right: 1vw;
-  }
-  .nav-links ul {
-    padding: 30px;
-  }
 }
 /* ------------------main----------------------- */
 .calculator_section {
@@ -191,35 +100,6 @@ button:active {
     font-weight: bold;
   }
 }
-/* ---------------Next section--------------- */
-.some_section {
-  background-color: rgb(100, 98, 98);
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-}
-#mySubmit {
-  width: 100px;
-  height: 30px;
-  border-radius: 10px;
-  border: solid 1px black;
-  background-color: #4d4d4d;
-  color: white;
-  font-size: 12px;
-  font-weight: normal;
-}
-#mySubmit:hover {
-  background-color: #696767;
-}
-#mySubmit:active {
-  background-color: #8a8a8a;
-}
-#myText{
-  font-size: 20px;
-  height: 50px;
-}
-
 /* _________________footer____________________ */
 footer {
   height: 30%;
